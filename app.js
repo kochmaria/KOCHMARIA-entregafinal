@@ -246,7 +246,7 @@ document.addEventListener("DOMContentLoaded", function () {
   console.log("El evento DOMContentLoaded se ha activado.");
 
   // Cargar los productos desde el archivo JSON
-  fetch("../JSON/productos.json")
+  fetch("./JSON/productos.json")
     .then((response) => response.json())
     .then((data) => {
       console.log("Datos obtenidos:", data);
