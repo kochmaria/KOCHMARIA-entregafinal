@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  
+  <title>Tienda de Auriculares</title>
+  
+
+</head>
+<body>
+  
+  <header class="header">
+    <div class="container">
+      <h1 class="text-center mb-0">Tienda de Auriculares</h1>
+    </div>
+  </header>
+  <nav class="navbar">
+    <div class="container">
+      <h1 class="navbar-title">Tienda de Auriculares</h1>
+      <ul class="navbar-links">
+        <li><a href="user.html">Usuario</a></li>
+        <li><a href="app.html">Tienda</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="container">
+    <div class="row mt-4">
+      <div class="col-lg-8">
+        <div id="product-container" class="product-container"></div>
+      </div>
+      <div class="col-lg-4">
+        <div id="cart-container">
+          <h2>Carrito de Compras</h2>
+          <button id="btn-aceptar-cookies">Aceptar Cookies</button>
+         <div id="popup-cookies">Este sitio web utiliza cookies para mejorar la experiencia del usuario. Al hacer clic en "Aceptar", aceptas el uso de cookies.</div>>
+           
+         </div>
+          <div id="cart-items"></div>
+          <div class="text-right">
+            <p><i class="fas fa-dollar-sign"></i> <span id="precio-total">0.00</span></p>
+          </div>
+          <button id="vaciar-carrito" class="btn btn-danger">Vaciar Carrito</button>
+          <button id="btn-pagar" class="btn btn-primary">Pagar</button>
+         
+
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <script src="app.js"></script>
+</body>
+</html>

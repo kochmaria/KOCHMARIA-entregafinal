@@ -1,0 +1,56 @@
+{
+    "productos": [
+      {
+        "id": 1,
+        "nombre": "Headphones",
+        "precio": 700,
+        "description": "Headphones Bluetooth Apple",
+        "imagen": "IMG/airpods-max-select-spacegray-202011_FV1_FMT_WHH.jpeg"
+      },
+      {
+        "id": 2,
+        "nombre": "Headphones",
+        "precio": 500,
+        "description": "Headphones Bluetooth JBL",
+        "imagen": "IMG/12_grande.jpeg"
+      },
+      {
+        "id": 3,
+        "nombre": "Airpods",
+        "precio": 200,
+        "description": "Auriculares Bluetooth Apple",
+        "imagen": "IMG/960x0.webp"
+      },
+      {
+        "id": 4,
+        "nombre": "Headphones Sony",
+        "precio": 150,
+        "description": "Headphones Sony con cable",
+        "imagen": "IMG/DISYX110NC_sony_noise_cancelling_headphones_black_mdr_zx110nc.jpeg"
+      },
+      {
+        "id": 5,
+        "nombre": "Auriculares Apple",
+        "precio": 120,
+        "description": "Auriculares Apple con cable",
+        "imagen": "IMG/i3336952727.webp"
+      },
+      {
+        "id": 6,
+        "nombre": "Headphones Runner JBL",
+        "precio": 200,
+        "description": "Headphones Bluetooth deporte",
+        "imagen": "img/44947708543006.jpeg"
+      },
+      {
+        "id": 7,
+        "nombre": "Auriculares Noise-Cancelling",
+        "precio": 400,
+        "description": "Headphones Blutooth cancelacion de sonido",
+        "imagen": "IMG/D_NQ_NP_748664-MLA25641278595_062017-O.webp"
+      }
+    ]
+  }
+  
+
+  
